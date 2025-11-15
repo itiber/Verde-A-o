@@ -7,22 +7,24 @@
 }
 
 body {
-  font-family: "Sansita Swashed", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: #000000;
+  color: #1b5e20;
 }
 
-/* ====== CABEÇALHO ====== */
+
 header {
   background-color: #66bb6a;
   padding: 20px 80px;
   color: #ffffff;
+  
 }
 
 header h2 {
   display: inline-block;
   width: 40%;
   font-size: 2rem;
+  font-family: "Sansita Swashed", cursive;
 }
 
 header nav {
@@ -48,7 +50,7 @@ header nav .cadastro {
   cursor: pointer;
 }
 
-/* ====== SEÇÃO HERO ====== */
+
 .background {
   height: 70vh;
   background-image: url("./assets/background.png");
@@ -63,6 +65,7 @@ header nav .cadastro {
 .background h1 {
   font-size: 4rem;
   margin-bottom: 15px;
+  font-family: "Sansita Swashed", cursive;
 }
 
 .background p {
@@ -82,7 +85,7 @@ header nav .cadastro {
   cursor: pointer;
 }
 
-/* ====== SEÇÃO DE CARDS ====== */
+
 .cards {
   background-color: #f1f8e9;
   text-align: center;
@@ -108,12 +111,15 @@ header nav .cadastro {
 
 .card h3 {
   margin-top: 15px;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  
 }
 
 .card p {
-  margin: 15px;
-  font-size: 1rem;
+  margin: 5px;
+  font-size: 0.8rem;
   color: #4e4e4e;
   height: 50px;
 }
@@ -128,7 +134,6 @@ header nav .cadastro {
   cursor: pointer;
 }
 
-/* ====== FORMULÁRIO ====== */
 .cadastro-section {
   background-color: #e8f5e9;
   text-align: center;
@@ -138,6 +143,7 @@ header nav .cadastro {
 .cadastro-section h2 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #2A2A2A;
 }
 
 .cadastro-section p {
@@ -149,7 +155,6 @@ header nav .cadastro {
 
 form {
   display: inline-block;
-  background-color: #ffffff;
   padding: 40px;
   border-radius: 10px;
   width: 50%;
@@ -160,6 +165,7 @@ form label {
   display: block;
   margin-top: 15px;
   font-weight: bold;
+  color: #2A2A2A;
 }
 
 form input,
@@ -184,7 +190,7 @@ form button {
   margin: 25px auto 0 auto;
 }
 
-/* ====== RODAPÉ ====== */
+
 footer {
   background-color: #66bb6a;
   color: #ffffff;
